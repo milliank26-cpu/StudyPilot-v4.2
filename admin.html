@@ -55,7 +55,13 @@ Nucleus"></textarea></label><button class="secondary" type="submit">Add concept 
     <div class="card">
       <div class="import-row">
         <label>Academic level<select id="bulkLevel"><option value="O Level">O Level</option><option value="A Level">A Level</option></select></label>
-        <label>Subject<select id="bulkSubject"><option value="">Choose a subject</option></select></label>
+        <label>Subject<select id="bulkSubject">
+          <option value="">Choose a subject</option>
+          <option value="">Physics</option>
+          <option value="">Mathenatics</option>
+          <option value="">Economics</option>
+          <option value="">General Papers</option>
+        </select></label>
         <label class="file-label">CSV file<input id="curriculumFile" type="file" accept=".csv,text/csv"></label>
       </div>
       <p class="muted">Required headers: <code>Topic,Subtopic,Concept</code>. Optional: Description, Difficulty, Importance, LearnMinutes, ReviewMinutes, PracticeMinutes, TargetRepetitions, TargetQuestions.</p>
